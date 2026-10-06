@@ -16,7 +16,7 @@ def test_estiliza_mensaje():
     # No vamos a implementar el parámetro usa_dieresis
     # assert estiliza_mensaje("Murciélago", usa_dieresis=True) == "MüRcÏéLäGö"
     assert estiliza_mensaje("Soy un programador experto", sustituye_espacios="*") == "SoY*uN*pRoGrAmAdOr*ExPeRtO"
-    assert estiliza_mensaje("Hola Mundo", alterna_may_min=True, usa_dieresis=False, sustituye_espacios="_") == "HoLa_MuNdO"
+    assert estiliza_mensaje("Hola Mundo", alterna_may_min=True, sustituye_espacios="_") == "HoLa_MuNdO"
 
 test_invierte_cadena()
 # TODO: Comprueba que se pasan bien los tests de estiliza_mensaje

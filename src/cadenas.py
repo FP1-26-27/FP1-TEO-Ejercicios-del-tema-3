@@ -55,6 +55,9 @@ def estiliza_mensaje(texto: str, alterna_may_min: bool = True, sustituye_espacio
             toca_mayusculas = not toca_mayusculas
 
         # TODO: Implementar sustituye_espacios en casa
+        if c == " ":
+            c = sustituye_espacios
 
         res += c
+        
     
